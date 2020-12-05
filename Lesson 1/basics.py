@@ -5,7 +5,7 @@ x = 1.0
 x = True
 
 # Input and output
-user_input = input("Enter your input...")
+user_input = input("Enter your input...\n")
 print(user_input)
 
 # Operators
@@ -16,7 +16,7 @@ print(1 // 7)
 print(4 * "a")
 
 # Conditionals
-number = int(input("Enter a number"))
+number = int(input("Enter a number\n"))
 if number < 5:
     print("Smaller than 5!")
 elif number == 5:
@@ -51,6 +51,7 @@ for i in range(len(x)):
 i = 0
 while i < len(x):
     print(x[i])
+    i += 1
 
 # Sets & Dicts
 s = {1, 2, 3, 3, 2, 1}
