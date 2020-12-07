@@ -48,17 +48,6 @@ Once we are all installed, let's start going over some of the things we are goin
 - PyCharm is an IDE (Integrated Development Environment), meaning a text editor that also can run the program.
 - Sublime is a text editor, so it can't run the program. But using Python we can run files just the same, from the command line.
 
-
-### Packets!
-We are now going to take a look at some packets together in Wireshark. <br>
-1. Go to http://www.httpvshttps.com/, and then open Wireshark. 
-2. Choose the interface that has lines next to it, and start sniffing.
-3. The things that are showing up are packets. Click one.
-4. Explore! What do the different fields mean? What is in the headers? What is in the data?
-
-
-We will learn all about these things in the future. This is just a taste, so we feel comfortable with Wireshark.
-
 ### Snakes!
 We are now going to go over some Python and understand the language and how easy it is to code with it.
 The syllabus outlines everything, and the code will document what we did at basics.py.
