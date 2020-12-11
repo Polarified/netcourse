@@ -1,3 +1,5 @@
+# Lesson 2
+
 ### Packets!
 We are now going to take a look at some packets together in Wireshark. <br>
 1. Close all your tabs and other network activity, and go to http://www.httpvshttps.com/, then open Wireshark. 
@@ -46,7 +48,9 @@ Enrichment:
     2. What is analog? How is it different from digital?
     3. Given: Analog signal can theoretically transfer infinite data. Why doesn't it?
     
-    
+### Layer 1 Summary
+The **physical layer** is responsible for the **transmission of bits on a physical medium**. <br>
+It gives the second layer the possibility to send entire frames, by handling the passage of data itself. The second layer doesn't care what type of media is used.
     
 ### Layer 2
 So, we have a twisted pair cable / wifi / satellite / kiddie pool we can send waves over. 
@@ -66,16 +70,3 @@ Ethernet is a computer networking technology used in networking. It is basically
 Mac Addresses - the 48 bit address used by Ethernet. It is unique per network interface controller (NIC). When sending to an address, you can send to a single address, to a group of addresses, or to everyone. The first three bytes are the vendor (manufacturer), the last three are anything.
 Ultimately, you don't really know where you are sending. Any address can intercept the packet. The question is whether a device wants to read it or not.<br>
 What if we want to read packets that aren't aimed at us? We can use promiscuous mode.
-
-### Connecting a Network
-Let's think about how to connect a group of devices. We have cables, and can make up devices. What are our options?
-
-* Cable - Connects two things.
-* Repeater - Repeats a signal, because cables fade in strength.
-* Hub - Repeater with more than just 2 ports. Sends everywhere.
-* Switch - A smart Hub, that learns which device is where. 
-
-<h6> How do we avoid network loops..? </h6>
-
-### Finally, let's get tricky!
-How can we read other people's packets in a Layer 2 network?
