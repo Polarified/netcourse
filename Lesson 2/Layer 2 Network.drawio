@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-12-07T19:14:28.805Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="_Sc-QC1X3gkFmCB6DyC2" version="13.11.0" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-20T12:33:27.189Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="6HDjE6kOtHG8FH-x2CnP" version="13.11.0" type="github">
   <diagram name="Layer 2" id="e3a06f82-3646-2815-327d-82caf3d4e204">
-    <mxGraphModel dx="1425" dy="792" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1211" dy="673" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" style=";html=1;" />
         <mxCell id="1" style=";html=1;" parent="0" />
@@ -10,32 +10,35 @@
         <mxCell id="6a7d8f32e03d9370-23" value="" style="verticalLabelPosition=bottom;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;shape=mxgraph.citrix.home_office;fillColor=#66B2FF;gradientColor=#0066CC;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="400" y="280" width="80" height="55.5" as="geometry" />
         </mxCell>
-        <mxCell id="SVHmmZ9j9mahNTua-RXh-1" value="&lt;font style=&quot;font-size: 23px&quot;&gt;Internet&lt;/font&gt;" style="verticalLabelPosition=bottom;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.cloud;" vertex="1" parent="1">
+        <mxCell id="SVHmmZ9j9mahNTua-RXh-1" value="&lt;font style=&quot;font-size: 23px&quot;&gt;Internet&lt;/font&gt;" style="verticalLabelPosition=bottom;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.cloud;" parent="1" vertex="1">
           <mxGeometry x="990" y="366" width="548.56" height="358" as="geometry" />
         </mxCell>
-        <mxCell id="SVHmmZ9j9mahNTua-RXh-2" value="Router" style="verticalLabelPosition=bottom;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.router;" vertex="1" parent="1">
+        <mxCell id="SVHmmZ9j9mahNTua-RXh-2" value="Router" style="verticalLabelPosition=bottom;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.router;" parent="1" vertex="1">
           <mxGeometry x="960" y="530" width="75" height="49.77" as="geometry" />
         </mxCell>
-        <mxCell id="SVHmmZ9j9mahNTua-RXh-3" value="&lt;font style=&quot;font-size: 24px&quot;&gt;Our Layer 2 Home Network!&lt;/font&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
+        <mxCell id="SVHmmZ9j9mahNTua-RXh-3" value="&lt;font style=&quot;font-size: 24px&quot;&gt;Our Layer 2 Home Network!&lt;/font&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="538.5" y="297.75" width="310" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="SVHmmZ9j9mahNTua-RXh-8" value="File Server&lt;br&gt;00:00:00:00:00:01" style="verticalLabelPosition=bottom;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.file_server;" vertex="1" parent="1">
+        <mxCell id="SVHmmZ9j9mahNTua-RXh-8" value="File Server&lt;br&gt;00:00:00:00:00:01" style="verticalLabelPosition=bottom;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.file_server;" parent="1" vertex="1">
           <mxGeometry x="467.5" y="484" width="71" height="97" as="geometry" />
         </mxCell>
-        <mxCell id="SVHmmZ9j9mahNTua-RXh-9" value="Switch" style="verticalLabelPosition=bottom;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.switch;" vertex="1" parent="1">
+        <mxCell id="SVHmmZ9j9mahNTua-RXh-9" value="Switch" style="verticalLabelPosition=bottom;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.switch;" parent="1" vertex="1">
           <mxGeometry x="888.82" y="297.75" width="85.35" height="38.5" as="geometry" />
         </mxCell>
-        <mxCell id="SVHmmZ9j9mahNTua-RXh-10" value="Web Server&lt;br&gt;00:00:00:00:00:02" style="verticalLabelPosition=bottom;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.web_server;" vertex="1" parent="1">
+        <mxCell id="SVHmmZ9j9mahNTua-RXh-10" value="Web Server&lt;br&gt;00:00:00:00:00:02" style="verticalLabelPosition=bottom;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.web_server;" parent="1" vertex="1">
           <mxGeometry x="590" y="491" width="76.5" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="SVHmmZ9j9mahNTua-RXh-11" value="Hub" style="verticalLabelPosition=bottom;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.branch_repeater;" vertex="1" parent="1">
+        <mxCell id="SVHmmZ9j9mahNTua-RXh-11" value="Hub" style="verticalLabelPosition=bottom;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.branch_repeater;" parent="1" vertex="1">
           <mxGeometry x="894.3199999999999" y="366" width="74.36" height="29" as="geometry" />
         </mxCell>
-        <mxCell id="SVHmmZ9j9mahNTua-RXh-12" value="Client&lt;br&gt;00:00:00:00:00:03" style="verticalLabelPosition=bottom;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.thin_client;" vertex="1" parent="1">
+        <mxCell id="SVHmmZ9j9mahNTua-RXh-12" value="Client&lt;br&gt;00:00:00:00:00:03" style="verticalLabelPosition=bottom;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.thin_client;" parent="1" vertex="1">
           <mxGeometry x="710" y="504" width="71" height="71" as="geometry" />
         </mxCell>
-        <mxCell id="SVHmmZ9j9mahNTua-RXh-13" value="Client&lt;br&gt;00:00:00:00:00:04" style="verticalLabelPosition=bottom;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.thin_client;" vertex="1" parent="1">
+        <mxCell id="SVHmmZ9j9mahNTua-RXh-13" value="Client&lt;br&gt;00:00:00:00:00:04" style="verticalLabelPosition=bottom;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.thin_client;" parent="1" vertex="1">
           <mxGeometry x="823.3199999999999" y="509.5" width="71" height="71" as="geometry" />
+        </mxCell>
+        <mxCell id="IJzpmXUJwssexYy1VBgv-1" value="Repeater" style="verticalLabelPosition=bottom;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.branch_repeater;" vertex="1" parent="1">
+          <mxGeometry x="802" y="366" width="74.36" height="29" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
