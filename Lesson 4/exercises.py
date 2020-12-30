@@ -41,10 +41,19 @@ def arp_scan(network_to_scan, timeout):
     """
 
 
-# Use the ttl_window.png file to figure out what changes for each operating system!
-def os_detection():
+def traceroute(destination, max_ttl):
     """
-    Sniff TCP packets on your network and return what operating system (Windows, Linux, etc.) each IP you see is!
+    Write the program traceroute, that prints all the IPs between you and the target ip!
+    :param destination: the ip to trace the route for
+    :param max_ttl: the maximum ttl to give, so you know when to stop
+    """
+
+# CHALLENGE
+# Use the ttl_window.png file to figure out what changes for each operating system!
+def os_detection(count):
+    """
+    Sniff TCP SYN packets on your network and return what operating system (Windows, Linux, etc.) each IP you see is!
+    :param count: how many packets to collect.
     :return: a dict that contains pairs of the type: {'1.1.1.1': 'Windows', '2.2.2.2': 'Linux'}
     """
     # Hint: to sniff TCP, use "tcp" as your filter when sniffing!
